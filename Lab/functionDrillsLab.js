@@ -98,6 +98,12 @@ compareNums(10,2)
 */
 
 //CODE HERE
+let sum = add
+function add(num1, num2){
+    console.log(num1 + num2)
+}
+
+sum(10,4)
 
 
 ////////////////// PROBLEM 7 ////////////////////
