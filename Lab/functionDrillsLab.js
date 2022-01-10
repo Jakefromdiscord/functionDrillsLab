@@ -272,6 +272,22 @@ let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
 */
 
 //CODE HERE
+function bigOrSmall(arr){
+    let answers = []
+    for(i = 0; i < arr.length; i++){
+        if(bigOrSmallArray[i]>100){
+        answers.push('Big')
+        } else if(bigOrSmallArray[i]<=100){
+            answers.push('small')
+        } 
+    }
+    return answers
+}
+
+let arrayEvaluator = bigOrSmall(bigOrSmallArray)
+console.log(arrayEvaluator)
+
+
 
 
 ////////////////// PROBLEM 16 ////////////////////
