@@ -158,7 +158,7 @@ function exclaimFour(str) {
 }
 
 // arrow
-//  declaration
+// declaration
 // expression
 
 
@@ -182,6 +182,7 @@ function nameCheck(name){
     }
 }
 
+nameCheck('sam')
 let nameGreeting = nameCheck('Jake')
 
 ////////////////// PROBLEM 11 ////////////////////
@@ -195,7 +196,19 @@ let nameGreeting = nameCheck('Jake')
 */
 
 //CODE HERE
+function faveColorFinder(color){
+    if(color === 'red'){
+        console.log('Red is a great color')
+    } else if(color === 'green'){
+        console.log('green is a solid favorite color')
+    } else if( color === 'black'){
+        console.log('So trendy')
+    } else{
+        console.log('you need to evaluate your favorite color choice')
+    }
+}
 
+let colorRating = faveColorFinder('black')
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
