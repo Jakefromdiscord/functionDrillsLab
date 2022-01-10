@@ -73,7 +73,17 @@ greeting('Jake')
 */
 
 //CODE HERE
+const compareNums = (one, two) => {
+    if(one > two){
+        console.log(one)
+    } else if(one < two){
+        console.log(two)
+    } else {
+        console.log(one)
+    }
+}
 
+compareNums(10,2)
 
 ////////////////// PROBLEM 6 ////////////////////
 /*
