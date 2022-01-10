@@ -74,6 +74,10 @@ greeting('Jake')
 
 //CODE HERE
 const compareNums = (one, two) => {
+//     return one>two ? one
+//         : one<two ? two
+//         : one;
+// } 
     if(one > two){
         console.log(one)
     } else if(one < two){
