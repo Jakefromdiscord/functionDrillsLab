@@ -197,6 +197,7 @@ let nameGreeting = nameCheck('Jake')
 
 //CODE HERE
 function faveColorFinder(color){
+    color = color.toLowerCase()
     if(color === 'red'){
         console.log('Red is a great color')
     } else if(color === 'green'){
@@ -208,7 +209,7 @@ function faveColorFinder(color){
     }
 }
 
-let colorRating = faveColorFinder('black')
+let colorRating = faveColorFinder('Red')
 
 ////////////////// PROBLEM 12 ////////////////////
 let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
@@ -219,7 +220,12 @@ let namesArr = ['Cameron', 'Riley', 'Eric', 'Brenna', 'Karl']
 */
 
 //CODE HERE
-
+function printAllNames(arr){
+    for(let i = 0; i <arr.length; i++){
+        console.log(arr[i])
+    }
+}
+printAllNames(namesArr)
 
 ////////////////// PROBLEM 13 ////////////////////
 /*
