@@ -257,7 +257,8 @@ let oddChecker = thatsOdd(22)
 */
 
 //CODE HERE
-
+const bestMovie = (one) => {console.log(`${one} is the best movie ever!`)}
+bestMovie('Shrek')
 
 ////////////////// PROBLEM 15 ////////////////////
 let bigOrSmallArray = [1,101, 102, 2, 103, 4, 5, 6, 107]
