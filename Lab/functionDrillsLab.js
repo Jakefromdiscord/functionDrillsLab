@@ -336,6 +336,19 @@ uppercase1('coding is cool')
   return 'must provide a valid email address'
 */
 
+//CODE HERE
+function emailCheck(email){
+    let newEmail = email.trim()
+    if(email.includes('@')){
+        console.log('email verified')
+    } else {
+        console.log('must provide a valid email address')
+    }
+    console.log(newEmail)
+}
+
+emailCheck('        jskskater@gmail.com               ')
+
 ////////////////// PROBLEM 19 ////////////////////
 /*
   Write a function, naming it whatever you believe to be appropriate, that buys as many chocolate frogs as possible with a certain amount of gold. Each chocolate frog costs 3 gold. Your function should take in a single parameter, which is the amount of gold you are willing to spend. Your function should return a total amount of chocolate frogs you were able to purchase.
