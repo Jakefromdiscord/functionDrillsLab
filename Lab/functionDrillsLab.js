@@ -299,7 +299,16 @@ let loser = 'Glimmer'
 */
 
 //CODE HERE
+function theEliminator(arr, string){
+    for(let i =0; i < arr.length; i++)
+    if(arr[i] === string){
+        arr.splice(i,1)
+    }
+    return arr
+}
 
+let newContestants = theEliminator(contestants, loser)
+console.log(newContestants)
 
 ////////////////// PROBLEM 17 ////////////////////
 let sampleString = "Hi, my name is Kylo."
