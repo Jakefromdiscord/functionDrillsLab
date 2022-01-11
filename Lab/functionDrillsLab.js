@@ -318,7 +318,12 @@ let sampleString = "Hi, my name is Kylo."
 */
 
 //CODE HERE
+function uppercase1(sampleString){
+    sampleString = sampleString.toUpperCase()
+    console.log(sampleString)
+}
 
+uppercase1('coding is cool')
 
 ////////////////// PROBLEM 18 ////////////////////
 /*
