@@ -374,7 +374,12 @@ const totalFrogs = gold(4)
 */
 
 //CODE HERE
+function gold(numOfGold){
+    let chocolateFrog = numOfGold/3
+    console.log(chocolateFrog)
+}
 
+const totalFrogs2 = gold(4 + 2)
 
 ////////////////// PROBLEM 21 ////////////////////
 let sampleArray = [0,1,2,3,4,7,5,6,8,9]
